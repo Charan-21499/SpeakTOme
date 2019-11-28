@@ -21,7 +21,7 @@ def check_len(text):
       
 
 def wolfframe_check(text):
-  app_id = "XHRH93-9XPWXAJJVH"
+  app_id = "Enter Wolframalpha app key"
   client = wolframalpha.Client(app_id)
   res = client.query(text)
   answer = next(res.results).text
